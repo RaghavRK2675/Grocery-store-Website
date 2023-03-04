@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                font-size: 300%;
+                color:darkgreen
+            }
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-image: url(BG.jpg);
+            }
+            .box{
+                background-color: rgba(66, 228, 171, 0.3);
+                border-radius: 1%;
+                width: 25%;
+                margin-left: 34%;
+                margin-top: 3%;
+                height: 60%;
+                padding: 1.5%;
+            }
+            .icon{
+                height: 8%;
+                width: 8%;
+            
+            }
+            .marquee{
+                margin-bottom: 1%;
+            }
+        </style>
+        <title>Login Page</title>
+    </head>
+    <body>
+        
+        <center><h1>Enter your credentials and select your desired products !</h1></center><br><br>
+        <div class="box">
+        <center><form id="credentials" action="Thanks_page.html">
+            First name: <input type="text"><br><br>
+            Last name: <input type="text"><br><br>
+            Address: <input type="text"><br><br>
+            E-mail: <input type="text"><br><br>
+            Password: <input type="password"><br><br>
+            Contact number: <input type="text"><br><br>
+            Item: <select>
+                <optgroup label="Select Items" selected>
+                    <option selected></option>
+                </optgroup>
+                <optgroup label="Milk products">
+                <option>Metro Dahi</option>
+                <option>Amul Butter</option>
+                <option>Nestle milk powder</option>
+                <option>Verka Milk</option>
+                <option>Gagan Desi Ghee</option>
+                <option>Amul cheese</option>
+                <option>Verka Lassi</option>
+            </optgroup>
+            <optgroup label="Non veg products">
+                <option>Frozen chicken</option>
+                <option>Chicken nuggets</option>
+                <option>Chicken popcorns</option>
+                <option>Keema</option>
+                <option>Mutton Champ</option>
+                <option>Frozen Mutton</option>
+                <option>Frozen Fish</option>
+            </optgroup>
+            <optgroup label="Vegetables">
+                <option>Potato</option>
+                <option>Tomato</option>
+                <option>Onion</option>
+                <option>Carrot</option>
+                <option>Capsicum</option>
+                <option>Garlic</option>
+                <option>Lady finger</option>
+            </optgroup>
+            <optgroup label="Cereals">
+                <option>Wheat</option>
+                <option>Rye</option>
+                <option>Sorghum</option>
+                <option>Rice</option>
+                <option>Oats</option>
+                <option>Maize</option>
+                <option>Corn</option>
+            </optgroup>
+            <optgroup label="Gourmet">
+                <option>P mark oil</option>
+                <option>Haldirams vinegar syrup</option>
+                <option>Maggi sauce</option>
+                <option>Fortune refined oil</option>
+                <option>Nutella spread</option>
+                <option>Dr.Oatkers white mayo</option>
+                <option>Cocoa powder</option>
+            </optgroup>
+            
+            
+
+
+            </select>
+            <br>
+            <br>
+            Quantity: <select>
+                <optgroup label="Quantity in Kilograms">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        </center>
+        </div>
+        <br>
+        <div class="marquee">
+        <marquee direction="right"><img class="icon" src="delivery.png"></marquee>
+        </div>
+    </body>
+</html>
